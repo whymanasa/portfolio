@@ -5,7 +5,9 @@ import image from '../assets/flowers.jpg'
 function Home() {
   return (
     <div className='home-container'>
-      <div className="intro">hello there i am manasa</div>
+      <div className="intro"><p className="h" style={{color:'#ededed '}}>Hello there</p>
+      <p className="h" style={{color:'#ededed '}}>I am Manasa Y</p>
+      <p style={{color:'#64b2bc ',fontSize:'30px'}}>(─ ‿‿ ─)</p></div>
       <div className="picture">
         <img src={image} alt='Flowers'/>
       </div>

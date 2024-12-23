@@ -1,23 +1,30 @@
 .home-container {
-    background-color: #055254;
-        width: 100%;
+background-color: #0e6c7c;
+    width: 100%;
     height: 100vh;
+    display: flex;
+    }
+    
+    .intro {
+        width: 65%;
+            display: flex;
+flex-direction: column;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.h {
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+
+.picture {
+    width: 35%;
         display: flex;
-        }
-        
-        .intro {
-            width: 60%;
-            display: flex;
-            align-items: center;
-        }
-        
-        .picture {
-            width: 40%;
-            display: flex;
-            align-items: center;
-        }
-        
-        .picture img {
-            width: 50%;
-            height: auto;
+        align-items: center;
+    }
+    
+    .picture img {
+        width: 50%;
+        height: auto;
 }

@@ -24,11 +24,12 @@ width: 100%;
 }
 
 .left a {
-    color: #5fa09d;
+    color: #64b2bc;
     font-weight: bold;
     font-size: larger;
     text-decoration: none;
 }
+
 
 .right {
     width: 50%;
@@ -38,7 +39,7 @@ width: 100%;
 
 .right a {
     text-decoration: none;
-    color: #5fa09d;
+    color: #64b2bc;
     font-size: larger;
     font-weight: bold;
 }
