@@ -9,9 +9,11 @@ function Navbar() {
       <Link to="/">Why_m</Link>
       </div>
       <div className="right">
+      <Link to="/">Home</Link>
         <Link to="about-me">About me</Link>
         <Link to="project">Projects</Link>
         <Link to="contact">Contact</Link>
+        
       </div>
         
       

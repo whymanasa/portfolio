@@ -35,7 +35,7 @@ function Projects() {
       technologies: ["React", "Javascript"],
       image: preety,
       github: "https://github.com/whymanasa/pps",
-      live: "",
+      live: "https://pps-five.vercel.app/",
     },
   ]
 
