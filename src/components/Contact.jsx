@@ -63,7 +63,7 @@ function Contact() {
 
             <div className="resume-download">
               <h3>My Resume</h3>
-              <a href="/path-to-your-resume.pdf" download className="download-button">
+              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="download-button">
                 <FaDownload /> Download CV
               </a>
             </div>
