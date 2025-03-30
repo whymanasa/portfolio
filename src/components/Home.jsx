@@ -7,7 +7,7 @@ function Home() {
     <div className='home-container'>
       <div className="intro"><p className="h" style={{color:'#ededed '}}>Hello there</p>
       <p className="h" style={{color:'#ededed '}}>I am Manasa Y</p>
-      <p style={{color:'#64b2bc ',fontSize:'30px'}}>(─ ‿‿ ─)</p></div>
+      <p style={{color:'#102A33 ',fontSize:'30px'}}>(─ ‿‿ ─)</p></div>
       <div className="picture">
         <img src={image} alt='Flowers'/>
       </div>

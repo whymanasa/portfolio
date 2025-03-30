@@ -1,0 +1,161 @@
+.contact-container {
+    padding: 7rem 2rem;
+    background-color: #102a33;
+    width: 100%;
+    height: 100vh;
+    color: #ededed;
+    font-family: "Inter", "Segoe UI", "Arial", sans-serif;
+}
+
+.contact-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #64b2bc, #14abbe);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.contact-subtitle {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.contact-info-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    background: rgba(16, 42, 51, 0.8);
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 600px;
+    width: 100%;
+    border: 1px solid rgba(237, 237, 237, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.contact-info:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    border: 0.5px solid #14abbe;
+    box-shadow: 0 0 10px #14abbe;
+}
+
+.info-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.info-icon {
+    font-size: 1.75rem;
+    color: #64b2bc;
+    margin-top: 0.25rem;
+}
+
+.info-item h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #ededed;
+}
+
+.info-item p {
+    color: #ccc;
+    font-size: 1.05rem;
+}
+
+.contact-link {
+    color: #64b2bc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.05rem;
+}
+
+.contact-link:hover {
+    color: #14abbe;
+    text-decoration: underline;
+}
+
+.resume-download {
+    margin-top: 1rem;
+}
+
+.resume-download h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #ededed;
+}
+
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: #14abbe;
+    color: white;
+    padding: 0.85rem 1.75rem;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-size: 1.05rem;
+}
+
+.download-button:hover {
+    background: #64b2bc;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .contact-container {
+        padding: 3rem 1rem;
+    }
+
+    .contact-title {
+        font-size: 2rem;
+    }
+
+    .contact-info {
+        padding: 1.75rem;
+        gap: 1.5rem;
+    }
+
+    .info-item {
+        gap: 1rem;
+    }
+
+    .info-icon {
+        font-size: 1.5rem;
+    }
+}
