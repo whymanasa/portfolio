@@ -3,28 +3,91 @@ background-color: #0e6c7c;
     width: 100%;
     height: 100vh;
     display: flex;
-    }
-    
-    .intro {
-        width: 65%;
-            display: flex;
-flex-direction: column;
+}
+
+.intro {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     padding-left: 200px;
 }
 
 .h {
-    font-size: 40px;
+font-size: 40px;
     padding-bottom: 15px;
 }
 
 .picture {
-    width: 35%;
-        display: flex;
-        align-items: center;
-    }
-    
-    .picture img {
-        width: 50%;
+width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+.picture img {
+    width: 50%;
+    height: auto;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
         height: auto;
+        min-height: 100vh;
+        padding-top: 120px;
+        /* Account for fixed navbar */
+    }
+
+    .intro {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        order: 2;
+        padding-bottom: 30px;
+    }
+
+    .h {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .picture {
+        width: 100%;
+        justify-content: center;
+        order: 1;
+        padding: 20px;
+    }
+
+    .picture img {
+        width: 70%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-container {
+        padding-top: 140px;
+        /* More space for stacked navbar */
+    }
+
+    .intro {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .h {
+        font-size: 24px;
+        padding-bottom: 8px;
+    }
+
+    .intro p:last-child {
+        font-size: 24px !important;
+    }
+
+    .picture img {
+        width: 80%;
+        max-width: 250px;
+    }
 }

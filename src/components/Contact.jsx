@@ -17,8 +17,8 @@ function Contact() {
               <FaEnvelope className="info-icon" />
               <div>
                 <h3>Email</h3>
-                <a href="mailto:youremail@example.com" className="contact-link">
-                  youremail@example.com
+                <a href="123yapitsme@gmail.com" className="contact-link">
+                  123yapitsme@gmail.com
                 </a>
               </div>
             </div>
@@ -28,12 +28,12 @@ function Contact() {
               <div>
                 <h3>GitHub</h3>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/whymanasa"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-link"
                 >
-                  github.com/yourusername
+                  github.com/whymanasa
                 </a>
               </div>
             </div>
@@ -43,12 +43,12 @@ function Contact() {
               <div>
                 <h3>LinkedIn</h3>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/y-manasa-y-b32a37336/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-link"
                 >
-                  linkedin.com/in/yourusername
+                  linkedin.com/in/y-manasa-y-b32a37336/
                 </a>
               </div>
             </div>
@@ -63,7 +63,7 @@ function Contact() {
 
             <div className="resume-download">
               <h3>My Resume</h3>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="download-button">
+              <a href="/manasa_resume.pdf" target="_blank" rel="noopener noreferrer" className="download-button">
                 <FaDownload /> Download CV
               </a>
             </div>
